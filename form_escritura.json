@@ -1,0 +1,83 @@
+{
+    "deed_number": "3529",
+    "deed_date": "08/20/2024",
+    "sale_value": "195000000",
+    "appraisal_value": "95189164",
+    "advance_value": "25000000",
+    "certificate_number": "3509",
+    "certificate_date": "09/28/2024",
+    "fund_collection": "19750",
+    "super_collection": "19750",
+    "iva": "232466",
+    "retefuente_payment": "-0-",
+    "real estate_registration_number": "370-1117304",
+    "apartment_number": "1-102",
+    "notary_name": "HECTOR MARIO GARCÉS PADILLA",
+    "notary_name_signature": "DOCTOR HECTOR MARIO GARCÉS PADILLA",
+    "notary_in_charge": "si",
+    "resolution_number": "12345678",
+    "resolution_date": "12/03/2024",
+    "notarial_rights": "$ 500,095",
+    "recaudo_fondo": "$ 19,750",
+    "recaudo_super": "$ 19,750",
+    "retenue_payment": "-0-",
+    "property_registration_number": "370-1117304",
+
+    "bank_credit": "DAVIVIENDA",
+    "mortgage_cancellation_value": "1000000",
+    "credit_bank": "BANCO DAVIVIENDA S.A.",
+    "credit_value": "130000000",
+
+    "subsidy": "si",
+    "compensation_fund_name": "Ministry of Housing, City and Territory National Housing Fund MI CASA YA",
+    "subsidy_value": "500000",
+    "subsidy_record_date": "",
+    "subsidy_record": "",
+
+    "buyers": [
+        {
+            "name": "Yeison David Lopez",
+            "id_number": "109384343",
+            "city_residence": "Cali",
+            "civil_status": "Soltero sin union marital de hecho",
+
+            "spouse_name": "Natalia Martinez",
+            "spouse_occupation": "Arquitecta",
+            "spouse_id": "63358222",
+            "spouse_email": "robinybatman@gmail.com",
+
+            "email": "robinybatman@gmail.com",
+            "phone": "3105002003",
+            "occupation": "Ingeniero de sistemas",
+            "citizenship": "Colombia",
+            "address": "Calle 28 # 54-28",
+            "has_attorney": "si",
+            "attorney": {
+                "name": "Esperanza Camacho",
+                "domicile": "Bucaramanga",
+                "document_type": "Citizenship ID",
+                "document_id": "63358221"
+            }
+        },
+        {
+            "name": "Valentina Galeano",
+            "id_number": "332321432",
+            "city_residence": "Cali",
+            "civil_status": "Soltero sin union marital de hecho",
+
+            "spouse_name": "Diego Lopez",
+            "spouse_occupation": "Arquitecto",
+            "spouse_id": "63358222",
+            "spouse_email": "diegobatman@gmail.com",
+
+            "email": "---",
+            "phone": "---",
+            "occupation": "Arquitecta",
+            "citizenship": "Colombia",
+            "address": "Calle 28 # 54-28",
+            "has_attorney": "no"
+        }
+    ],
+    "linderos": "APARTAMENTO 1-102. Se ubica en el primer piso del CONJUNTO RESIDENCIAL NUQUÍ VIS ETAPA 1, ubicado en la dirección Calle 9 # 20B-195 del Sector Guabinas..."
+   
+}

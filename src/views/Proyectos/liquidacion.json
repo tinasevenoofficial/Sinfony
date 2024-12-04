@@ -1,0 +1,74 @@
+{
+    "numeroRadicacion": 785145,
+    "qr": "",
+    "fechaCreacion": "16/12/2021 10:31",
+    "actos": [{
+        "nombreActo": " ",
+        "valor": 55555555
+    }],
+    "derechosNotariales": {
+        "items": [{
+                "nombreDerecho": " ",
+                "total": 55555555,
+                "vendedor": 55555555,
+                "comprador": 55555555
+            }
+
+        ],
+        "subtotal": [{
+            "vendedor": 555555,
+            "comprador": 55555555,
+            "total": 555555
+        }]
+    },
+
+    "cuentasDeOrden": {
+        "items": [{
+                "nombreCuenta": " ",
+                "total": 55555555,
+                "vendedor": 55555555,
+                "comprador": 55555555
+            }
+
+        ],
+        "subtotal": [{
+            "vendedor": 555555,
+            "comprador": 55555555,
+            "total": 555555
+        }]
+    },
+
+    "totalPagarNotaria": {
+        "vendedor": 555555,
+        "comprador": 55555555,
+        "total": 555555
+    },
+
+    "otrosGastos": {
+        "items": [{
+                "nombreGasto": " ",
+                "total": 55555555,
+                "vendedor": 55555555,
+                "comprador": 55555555
+            },
+            {
+                "nombreGasto": " ",
+                "total": 55555555,
+                "vendedor": 55555555,
+                "comprador": 55555555
+            }
+
+        ],
+        "subtotal": [{
+            "vendedor": 555555,
+            "comprador": 55555555,
+            "total": 555555
+        }]
+    },
+
+    "costoTotal": {
+        "vendedor": 555555,
+        "comprador": 55555555,
+        "total": 555555
+    }
+}

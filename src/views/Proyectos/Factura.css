@@ -1,0 +1,312 @@
+.pdf-page {
+    position: relative;
+    margin: 0 auto;
+    padding: .4in .5in;
+    color: #333;
+    background-color: #fff;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .3);
+    box-sizing: border-box;
+    /*
+          Use the DejaVu Sans font for display and embedding in the PDF file.
+          The standard PDF fonts have no support for Unicode characters.
+      */
+    font-family: "DejaVu Sans", "Arial", sans-serif;
+}
+
+
+/*
+      The example loads the DejaVu Sans from the Kendo UI CDN.
+      Other fonts have to be hosted from your application.
+      The official site of the Deja Vu Fonts project is
+      https://dejavu-fonts.github.io/.
+  */
+
+@font-face {
+    font-family: "DejaVu Sans";
+    src: url("https://kendo.cdn.telerik.com/2017.2.621/styles/fonts/DejaVu/DejaVuSans.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "DejaVu Sans";
+    font-weight: bold;
+    src: url("https://kendo.cdn.telerik.com/2017.2.621/styles/fonts/DejaVu/DejaVuSans-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "DejaVu Sans";
+    font-style: italic;
+    src: url("https://kendo.cdn.telerik.com/2017.2.621/styles/fonts/DejaVu/DejaVuSans-Oblique.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "DejaVu Sans";
+    font-weight: bold;
+    font-style: italic;
+    src: url("https://kendo.cdn.telerik.com/2017.2.621/styles/fonts/DejaVu/DejaVuSans-Oblique.ttf") format("truetype");
+}
+
+.pdf-header {
+    padding-bottom: 0;
+    margin-bottom: .3in;
+    /* border-bottom: 1px solid #e5e5e5; */
+}
+
+.invoice-number {
+    padding-top: .1in;
+    float: right;
+}
+
+.pdf-footer {
+    position: absolute;
+    bottom: .25in;
+    left: .3in;
+    right: .3in;
+    padding-top: 0.05in;
+    border-top: 1px;
+    font-size: 0.9em;
+    text-align: left;
+}
+
+.addresses {
+    font-size: 12px;
+}
+
+.addresses:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.for {
+    float: left;
+}
+
+.from {
+    float: right;
+}
+
+.addresses p {
+    color: #787878;
+    padding: .05in 0;
+    border-top: 1px solid #e5e5e5;
+}
+
+.addresses p:first-of-type {
+    border-top: 0;
+}
+
+.pdf-body {
+    margin-top: .3in;
+}
+
+.company-logo {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #3aabf0;
+}
+
+.header {
+    height: 140px;
+    width: 750px;
+    align-self: center;
+    align-items: center;
+    align-content: center;
+}
+
+.qr {
+    height: 110px;
+    width: 110px;
+    float: right
+}
+
+.signature {
+    padding-top: .3in;
+}
+
+
+/* Dimensions other than px and em should be divided by 1.33 for the proper PDF output */
+
+.size-a4 {
+    width: 6.2in;
+    height: 8.7in;
+}
+
+.size-letter {
+    width: 6.3in;
+    height: 8.2in;
+}
+
+.size-executive {
+    width: 5.4in;
+    height: 7.8in;
+    font-size: 12px;
+}
+
+.size-executive .pdf-header {
+    margin-bottom: .1in;
+}
+
+.box {
+    padding: 1em;
+    background-color: rgba(20, 53, 80, 0.038);
+    border: 1px solid rgba(20, 53, 80, 0.05);
+}
+
+.tabla {
+    float: left;
+}
+
+.tabla td {
+    padding: 0 15px;
+}
+
+.fila {
+    line-height: 12pt;
+    text-align: left;
+}
+
+.item1 {
+    height: 5px;
+    text-align: right;
+    vertical-align: middle;
+    font-size: 10pt;
+    color: #787878;
+}
+
+.item2 {
+    height: 5px;
+    font-size: 11pt;
+    text-align: left;
+}
+
+.tabla-cliente {
+    float: left;
+}
+
+#tabla-cliente-border {
+    border-radius: 10px;
+    border: 2px solid #b1b1b1;
+    padding: 20px;
+    width: 60%;
+    height: 110px;
+}
+
+.item1-cliente {
+    height: 5px;
+    text-align: left;
+    vertical-align: middle;
+    font-size: 10pt;
+    color: #787878;
+}
+
+.item2-cliente {
+    height: 5px;
+    font-size: 11pt;
+    text-align: left;
+    font-weight: bold;
+}
+
+.tabla-data {
+    border-top: 1px solid #b1b1b1;
+    border-bottom: 1px solid #b1b1b1;
+    border-left: 1px solid #b1b1b1;
+    border-right: 1px solid #b1b1b1;
+    font-size: 8pt;
+    vertical-align: middle;
+}
+
+.tabla-titulo {
+    border-top: 1px solid #b1b1b1;
+    border-bottom: 1px solid #b1b1b1;
+    border-left: 1px solid #b1b1b1;
+    border-right: 1px solid #b1b1b1;
+    font-size: 10pt;
+    background-color: #e6e3e3;
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+.tabla2 {
+    line-height: 15pt;
+    margin: auto;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1.6fr 0.7fr 0.7fr;
+    grid-template-rows: 1fr;
+    gap: 18px 0px;
+    grid-template-areas: "linea-1 nombre linea-2";
+}
+
+.linea-1 {
+    grid-area: linea-1;
+}
+
+.nombre {
+    grid-area: nombre;
+    margin: auto;
+}
+
+.linea-2 {
+    grid-area: linea-2;
+}
+
+.grid-container-doc-req {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1.2fr 1.1fr;
+    grid-template-rows: 1fr;
+    gap: 18px 0px;
+    grid-template-areas: "doc-req-1 doc-req-2";
+}
+
+.doc-req-1 {
+    grid-area: doc-req-1;
+}
+
+.doc-req-2 {
+    grid-area: doc-req-2;
+}
+
+.documento-req {}
+
+.grid-container-doc-obs {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 18px 0px;
+    grid-template-areas: "doc-obs-1";
+}
+
+.doc-obs-1 {
+    grid-area: doc-obs-1;
+}
+
+table.tabla-otorgantes {
+    font-size: 12px;
+    border: 1px solid #CCC;
+    width: 100%;
+}
+
+.tabla-otorgantes td {
+    padding-left: 15pt;
+    padding-right: 15pt;
+    height: 5px;
+    font-size: 11pt;
+    vertical-align: middle;
+}
+
+.tabla-otorgantes th {
+    height: 5px;
+    text-align: left;
+    vertical-align: middle;
+    font-size: 10pt;
+    font-size: 10pt;
+    background-color: #e6e3e3;
+    padding-left: 15pt;
+}
+
+.valor {
+    text-align: right;
+}

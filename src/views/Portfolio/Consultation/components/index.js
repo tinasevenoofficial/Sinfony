@@ -1,0 +1,5 @@
+export { default as Filter } from './FilterConsultation'
+export { default as Details } from './DetailsConsultation'
+export { default as Table } from './TableConsultation'
+export { default as TableWithoutClient } from './TableWithoutClient'
+export { default as DetailsClient } from './DetailsClient'

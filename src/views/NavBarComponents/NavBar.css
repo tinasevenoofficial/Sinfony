@@ -1,0 +1,16 @@
+.ant-steps-item-process>.ant-steps-item-container>.ant-steps-item-icon {
+    background: #081416;
+}
+
+.steps-action {
+    margin-top: 24px;
+}
+
+.ant-steps-item-process .ant-steps-item-icon {
+    background: #6e0c0c;
+    border-color: rgb(204, 30, 30);
+}
+
+span.anticon.anticon-check.ant-steps-finish-icon {
+    vertical-align: 0.125em;
+}

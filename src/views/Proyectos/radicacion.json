@@ -1,0 +1,73 @@
+{
+    "numeroRadicacion": 785145,
+    "qr": "",
+    "fechaCreacion": "16/12/2021",
+    "fechaFirma": "16/27/2021",
+    "proyecto": "DDC CONTRUCTORES URBANOS SA",
+    "direccion": "CARRERA 7C No. 2A-30 APTO 504 INT 2 - GIRÓN, SANTANDER",
+    "contacto": "55656562",
+    "digitador": "Pedro",
+    "revisor": "Daniel",
+    "radica": "ALFONSO",
+    "numeroEscritura": "12",
+    "items": {
+        "tipoRadicacion": [{
+                "nombreRadicacion": "01250000 - COMPRAVENTA DE BIENES INMUEBLES",
+                "cuantia": 55555555,
+                "adq": 55555,
+                "matricula": "56565656",
+                "otorgantes": [{
+                    "tipoDoc": "DE",
+                    "numeroDocumento": 55555555,
+                    "expedicionDocumento": "BOGOTA DC",
+                    "nombre": "AGUIRRE PEÑA CRISTIAN LEONARDO",
+                    "telefono": 66262662,
+                    "direccion": "CARRERA 7C No. 23-45 APTO 702..",
+                    "correo": "fiduciaria123@constructora.com"
+                }]
+            },
+            {
+                "nombreRadicacion": "01250000 - COMPRAVENTA DE BIENES INMUEBLES",
+                "cuantia": 55555555,
+                "adq": 55555,
+                "matricula": "56565656",
+                "otorgantes": [{
+                    "tipoDoc": "DE",
+                    "numeroDocumento": 55555555,
+                    "expedicionDocumento": "BOGOTA DC",
+                    "nombre": "AGUIRRE PEÑA CRISTIAN LEONARDO",
+                    "telefono": 66262662,
+                    "direccion": "CARRERA 7C No. 23-45 APTO 702..",
+                    "correo": "fiduciaria123@constructora.com"
+                }]
+            }
+        ]
+    },
+
+    "documentosRequeridos": [{
+            "nombre": "Fotocpia de documento deidentidad"
+        },
+        {
+            "nombre": "Registro civiles autenticados"
+        },
+        {
+            "nombre": "Copia de escrituras del inmueble"
+        },
+        {
+            "nombre": "Fotocpia de documento deidentidad"
+        }
+    ],
+
+
+    "observaciones": [{
+            "nombre": "Fotocpia de documento deidentidad Fotocpia de documento deidentidad Fotocpia de documento deidentidad Fotocpia de documento"
+        },
+        {
+            "nombre": "Registro civiles autenticados"
+        },
+        {
+            "nombre": "Copia de escrituras del inmueble Fotocpia de documento deidentidad Fotocpia de documento deidentidad"
+        }
+    ]
+
+}

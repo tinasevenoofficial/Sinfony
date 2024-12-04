@@ -1,0 +1,53 @@
+.containerBox {
+    display: flex;
+    height: 80pt;
+    width: 120pt;
+    justify-content: space-around;
+}
+
+.containerBox div {
+    justify-content: space-around;
+}
+
+.divider {
+    border-left: 2px solid gray;
+    border-radius: 5px;
+    min-height: 100%;
+    max-height: 100vh;
+    margin: 0;
+}
+
+.photoLogoNot {
+    height: 70px;
+    width: 100px;
+    align-self: center;
+    align-items: center;
+    align-content: center;
+}
+
+.photoLogoSinfony {
+    height: 100px;
+    width: 100px;
+    align-self: center;
+    align-items: center;
+    align-content: center;
+}
+
+.photoLogoSinfonyL {
+    height: 120px;
+    width: 60px;
+    align-self: center;
+    align-items: center;
+    align-content: center;
+}
+
+.photoLogoSinfonyDual {
+    height: 60pt;
+    width: 160pt;
+}
+
+.photoLogoSuper {
+    height: 70px;
+    width: 100px;
+    align-self: center;
+}
