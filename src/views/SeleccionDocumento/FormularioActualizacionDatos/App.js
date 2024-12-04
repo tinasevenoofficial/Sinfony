@@ -235,57 +235,6 @@ function App({dataJson, idPlantilla}) {
         </Button>
       </div>
 
-      {/* REQUIREMENTS
-
-1. First
-      <div style={{ A subtle border should go here }}>
-    here we need a label 'Project' and in front of it an input selector that brings the list of projects from the endpoint.
-
-      This is the endpoint: /api/plantillaDocumentos/proyectos
-
-      the endpoint looks like this: 
-
-      [
-    {
-        "codigo": "010101",
-        "proyecto": "NUQUI",
-        "token": "575757",
-        "usuario_plataforma": "96061016462",
-        "estado": 1,
-        "plantilla_documentos": [
-            {
-                "id": 1,
-                "nombre_plantilla": "Jaramillo Mora - NUQUI",
-                "url_documento": "plantillas_agiles/v2/Jaramillo Mora - NUQUI.docx",
-                "variables": "{\"minuta\": {\"notaria\": {\"nombre_notario\": \"DOCTORA MARÍA PÉREZ\", \"Fecha escritura\": \"03/10/2024\", \"notario_encargado\": \"Sí\"}, \"linderos\": \"Se ubica en el primer piso del CONJUNTO RESIDENCIAL NUQUÍ VIS ETAPA 1, ubicado en la dirección ZZZtext:direccion_inmueble:1ZZZ del Sector Guabinas. Área construida: 70,09 m2. Área privada construida: 62,45 m2. Nadir: +0,00 
-
-                ...
-
-                \"UN MILLÓN DE PESOS MONEDA CORRIENTE\", \"numeros\": \"$1.000.000\"}, \"matricula_inmobiliaria_apto\": \"300100200900\"}}}}",
-                "usuario_plataforma": "d8bdb91d-bed6-4e06-a0b8-086a3604d4a1",
-                "proyecto_codigo": "010101",
-                "proyecto2": {
-                    "codigo": "010101",
-                    "proyecto": "NUQUI",
-                    "token": "575757",
-                    "usuario_plataforma": "96061016462",
-                    "estado": 1
-                }
-            },
-            {
-                "id": 3,
-                "nombre_plantilla": "JaramilloMoraNUQUI2",
-                "url_documento": "plantillas_documentos/JaramilloMoraNUQUI2.docx",
-                "variables": "{\"minuta\": {\"notaria\": {\"nombre_notario\": \"DOCTORA MARÍA PÉREZ\", \"Fecha escritura\": \"03/10/2024\", \"notario_encargado\": \"Sí\"}, \"linderos\": \"Se ubica en el primer piso del CONJUNTO RESIDENCIAL NUQUÍ VIS ETAPA 1, ubicado en la dirección ZZZtext:direccion_inmueble:1ZZZ del Sector Guabinas. Área construida: 70,09 m2. Área privada construida: 62,45 m2. Nadir: +0,00 m. Cenit: --- it's bigger.
-
-2. Second  
-
- Same as above but with the templates associated with the document.
-
-      </div> */}
-
-
-
       <FormList forms={forms} updateForm={() => {}} removeForm={() => {}} dataJson={dataJson} />
       <SubmitButton
         template={template}
